@@ -1,0 +1,187 @@
+@font-face {
+   font-family: "Recoleta";
+   src: url('/fonts/Recoleta-RegularDEMO.otf');
+ }
+ 
+ *,
+ *::after,
+ *::before {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ body {
+   background-color: #fff;
+   font-family: 'Noto Sans', sans-serif;
+ }
+ 
+ .container {
+   width: 1200px;
+   padding: 0 10px;
+   margin: 0 auto;
+ }
+ 
+ h2,h3 {
+   font-family: "Recoleta";
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 65px;
+   color: #163A24;
+ }
+
+ span {
+   color: #163A24;
+ }
+ 
+ .row {
+   display: flex;
+   flex-flow: row wrap;
+ }
+ 
+ #hero {
+   background-color: #163A24;
+   color: #fff;
+ }
+ 
+ header {
+   padding: 20px 0;
+   margin-bottom: 15px;
+ }
+ 
+ .row.header {
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .navbar-list {
+   list-style: none;
+ }
+ 
+ .navbar-item {
+   margin-left: 24px;
+ }
+ 
+ .navbar-link {
+   color: #FBFAF7;
+   text-decoration: none;
+   font-size: 16px;
+   line-height: 22px;
+   font-weight: 400;
+   text-transform: capitalize;
+ }
+ 
+ .navbar-item {
+   position: relative;
+ }
+ 
+
+ 
+ .btn-get .navbar-link {
+   background-color: #198C36;
+   padding: 15px 25px;
+   border-radius: 35px;
+ }
+ 
+ 
+ .hero-title {
+   width: 391px;
+   margin-bottom: 18px;
+   color: #FBFAF7;
+ }
+ 
+ .hero-text {
+   width: 475px;
+   font-size: 18px;
+   line-height: 27px;
+   font-weight: 400;
+ }
+ 
+
+ 
+ .story-content {
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .partner-title {
+   text-align: center;
+   color: #163A24;
+   margin-bottom: 66px;
+ }
+ 
+ .partner-list {
+   list-style: none;
+   justify-content: space-around;
+   align-items: center;
+ }
+ 
+ /* costumers */
+ 
+ #costumers {
+   padding-top: 66px;
+   padding-bottom: 120px;
+   background-color: #163A24;
+   color: #fff;
+ }
+ 
+ .costumers-title {
+   text-align: center;
+   margin-bottom: 74px;
+ }
+ 
+ .costumers-list {
+   list-style: none;
+   justify-content: space-between;
+ }
+ 
+ .costumers-text {
+   font-size: 18px;
+   line-height: 27px;
+   text-align: center;
+   color: #FBFAF7;
+ }
+
+.footer-div {
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  margin: 10px;
+  border-bottom: 2px solid #E5E5E5;
+}
+
+.footer-div h3 {
+  font-size: 24px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.socical-logo {
+ margin-right: 15px; 
+}
+
+.footer-second {
+  justify-content: space-between;
+  font-size: 14px;
+  color: #163A24;
+  margin: 20px 0;
+}
+
+.footer-ul {
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer-li {
+  margin-right: 20px;
+}
+
+.footer-li a  {
+  font-size: 14px;
+  text-decoration: none;
+  color: #198C36;
+}
